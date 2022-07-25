@@ -9,6 +9,7 @@ let equal = document.getElementsByClassName('equal')[0];
 let input = document.getElementsByTagName('input')[0]
 let clear = document.getElementsByClassName('clear')[0]
 let del = document.getElementsByClassName('del')[0]
+let adder = document.getElementsByClassName('adder')[0]
 let button = document.getElementsByTagName('button') 
 let body = document.getElementsByTagName('body') 
 add = (e)=>{
@@ -29,3 +30,7 @@ input.addEventListener('keypress',(event)=>{
     input.value = x
     }
 })
+console.log(adder);
+adder = ()=>{
+    input.value = input.value.slice(0,-1) 
+}
