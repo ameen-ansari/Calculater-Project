@@ -1,8 +1,62 @@
-button:hover{
-    background-color:rgb(63, 140, 163);
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+button {
+    margin: 0.1rem;
+    user-select: none;
+}
+
+input {
+    width: 50vw;
+    outline: 0;
+}
+.cal{
+    height: 40%;
+}
+.header{
+    border: 20x solid blue;
+    
+}
+
+button:hover {
+    background-color: rgb(63, 140, 163);
     color: white;
 }
-.input:hover{
-    background-color:rgb(63, 140, 163);
+
+.input:hover {
+    background-color: rgb(63, 140, 163);
     color: white;
+}
+@media (max-width:700px){
+    .cal{
+        width:80vw;
+        border-radius: 9px;
+        border: 5px solid blue;
+    }
+    .clear{
+        width: 10%;
+    }
+    .input{
+        width:88%;
+    }
+}
+@media (min-width:701px){
+    .cal{
+        width:40vw;
+        border: 5px solid blue;
+        border-radius: 9px;
+    }
+    .clear{
+        width: 10%;
+    }
+    .input{
+        width:88%;
+    }
 }
