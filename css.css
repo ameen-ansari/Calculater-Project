@@ -43,22 +43,26 @@ button:hover {
         border: 5px solid blue;
     }
     .clear{
-        width: 10%;
+        width: 20%;
+        padding: 6px 20px;
+        background-color:grey;
     }
     .input{
-        width:88%;
+        width:100%;
     }
 }
 @media (min-width:701px){
     .cal{
         width:40vw;
-        border: 5px solid blue;
+        border: 6px solid blue;
         border-radius: 9px;
     }
     .clear{
+        background-color:grey;
         width: 15%;
+        padding: 4px 20px;
     }
     .input{
-        width:83%;
+        width:100%;
     }
 }
